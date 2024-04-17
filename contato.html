@@ -1,0 +1,65 @@
+<html lang="pt-br" style="background-color: #f0f0f0;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Tag Aside</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body style="background-color: #f0f0f0;">
+    <header>
+        <h1>Contato</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+        <div class="divform">
+        <form>
+            <div>
+              <label>Nome Completo</label>
+              <input class="form-control" id="nome" aria-describedby="emailHelp" style="border-color: #333;">
+            </div>
+            <div>
+              <label>Email</label>
+              <input class="form-control" id="email" style="border-color: #333;">
+            </div>
+            <div>
+                <label>Numero para contato</label>
+                <input class="form-control" id="contato" style="border-color: #333;">
+            </div>
+            <div>
+                <label>Deixe aqui sua mensagem</label>
+                <input class="form-control" id="mensagem" style="border-color: #333;">
+            </div>
+          <div class="checkboxs">
+            <label for="selection01">Como prefere nosso contato: </label> <br>
+            <input type="radio" id="selection01" name="selection01">
+            <label for="selection01">Email</label> <br>
+            <input type="radio" id="selection02" name="selection02" />
+            <label for="selection02">telefone</label> <br>
+            <input type="radio" id="selection03" name="selection03" />
+            <label for="selection03">whatsapp</label> <br> <br>
+          </div>
+          <div class="horario">
+            <label for="selection01">em qual horario prefere ser atendido: </label> <br>
+            <select name="horario" id="horario"> <br>
+              <option value="manha">manha</option>
+              <option value="tarde">tarde</option>
+              <option value="noite">noite</option>
+            </select>
+          </div>
+          <div class="email02">
+            <br>
+            <label for="selection01">Gostaria de receber email: </label>
+            <input type="checkbox" id="selection01" name="selection01"> <br>
+          </div>
+          <input type="submit" class="enviar" style="border-color: #333;">
+          </form>
+        </div>
+
+</body>
+</html>

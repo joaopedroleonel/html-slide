@@ -1,0 +1,209 @@
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+  
+  .slider {
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    margin: 20px;
+  }
+
+  .slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 600px;
+    height: 300px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background: #eee;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slides::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+
+  .slider > a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  @supports (scroll-snap-type) {
+    .slider > a {
+      display: none;
+    }
+  }
+
+
+#horario {
+
+    width: 100%;
+
+}
+.imgcarrosel {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.divform {
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control {
+    width: 100%;
+    appearance: none;
+    outline: 0;
+    border-style: double;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.enviar {
+    width: 100%;
+    appearance: none;
+    outline: 0;
+    border-style: double;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-fundo {
+    border-radius: 30px;
+}
+
+#section2 {
+    background-color: blue;
+}
+
+.form-control {
+    border-radius: 1rem;
+    border-color: #333;
+    outline-offset: 0;
+    outline-width: 0;
+    outline-style: auto;
+    text-shadow: none;
+    box-shadow: none;
+    width: 100%;
+    appearance: none;
+}
+
+form {
+    font-weight: 500;
+}
+
+.divform {
+    justify-content: center;
+    align-items: center;
+    padding-right: 400px;
+    padding-left: 400px;
+    padding-top: 80px;
+}
+
+html {
+    background-color: #f0f0f0;
+}
+
+.section {
+
+    border-radius: 50px;
+
+}
+
+.form-control {
+    border-color: #333;
+}
+
+#mensagem {
+    height: 10rem;
+}
+
+.section-blue {
+    background-color: aqua;
+}
+
+.div-fundo {
+
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+main, aside {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    padding: 20px;
+}
+li {
+    padding: 5px;
+}
+main {
+    background-color: #f0f0f0;
+}
+aside {
+    background-color: #e0e0e0;
+}
